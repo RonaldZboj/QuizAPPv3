@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Quiz APP</string>
+    <string name="title_activity_quiz">QUIZ</string>
+    //results
+    <string name="answer1">Less than 35 points - you are in a low risk group, however, it is recommended to have a checkup every two years.</string>
+    <string name="answer2">From 35 to 50 points - you are in the middle risk group, it is recommended to have a checkup at least once a year.</string>
+    <string name="answer3">Over 50 points - you are at high risk - you are advised to consult your eye doctor immediately!</string>
+    <string name="your_score">Your score is:</string>
+    <string name="click_to_wiki">Click the link below to find out more about glaucoma!</string>
+    <string name="wiki_link">https://en.wikipedia.org/wiki/Glaucoma</string>
+    //quiz
+    <string name="question1">Question 1. How old are you?</string>
+    <string name="question1_age">Enter age</string>
+    <string name="question2">Question 2. Someone in your family is or was sick with glaucoma?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="question3">Question 3. Do you generally have low blood pressure?</string>
+    <string name="question4">Question 4. Do you have fat metabolism disorders (overweight)?</string>
+    <string name="question5">Question 5. Do you have elevated blood sugar levels (diabetes)?</string>
+    <string name="question6">Question 6. Do you suffer from the following vascular diseases?</string>
+    <string name="question6a">Atherosclerosis</string>
+    <string name="question6b">Other</string>
+    <string name="question7">Question 7. Are you in constant stress?</string>
+    <string name="question8">Question 8. Do you have frequent headaches?</string>
+    <string name="question9">Question 9. Do you have cold hands and feet constantly?</string>
+    <string name="question10">Question 10. Are you nearsighted?</string>
+    <string name="submit">Submit</string>
+    <string name="results">Your score is:</string>
+    <string name="giveAnswers">You must enter you age in question 1 and answer all questions!</string>
+    //intro
+    <string name="are_you_at_risk">[QUIZ] Are you at risk for glaucoma?</string>
+    <string name="test">Test prepared by the Polish Society of Prophylaxis of Glaucoma in connection with the action: Poland do not blind!</string>
+    <string name="start">START</string>
+</resources>
