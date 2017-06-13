@@ -22,11 +22,12 @@ public class quiz extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
     }
+
     //variable score keep track on points you have
     int score = 0;
 
     //This method is called when you submit your answer
-    public void submit (View view) {
+    public void submit(View view) {
 
         //Get age  from question 1
         EditText ageField = (EditText) findViewById(R.id.age_field);
@@ -73,7 +74,7 @@ public class quiz extends AppCompatActivity {
         CheckBox answer6b = (CheckBox) findViewById(R.id.checkbox_q6_yes2);
         CheckBox answer6no = (CheckBox) findViewById(R.id.checkbox_q6_no);
 
-        if (answer6a.isChecked() || answer6b.isChecked()) {
+        if ((answer6a.isChecked() || answer6b.isChecked()) && !answer6no.isChecked()) {
             score = score + 5;
         }
 
@@ -108,52 +109,52 @@ public class quiz extends AppCompatActivity {
         //check if user answer all questions and entered age
         if (ageString.matches("")) {
             Toast.makeText(getApplicationContext(), getString(R.string.giveAnswers), Toast.LENGTH_SHORT).show();
-            score=0; //because if you hit submit button again program counts points 2 times
+            score = 0; //because if you hit submit button again program counts points 2 times
             return;
         }
         if (!((answer2.isChecked()) || (answer2no.isChecked()))) {
             Toast.makeText(getApplicationContext(), getString(R.string.giveAnswers), Toast.LENGTH_SHORT).show();
-            score=0;
+            score = 0;
             return;
         }
         if (!((answer3.isChecked()) || (answer3no.isChecked()))) {
             Toast.makeText(getApplicationContext(), getString(R.string.giveAnswers), Toast.LENGTH_SHORT).show();
-            score=0;
+            score = 0;
             return;
         }
         if (!((answer4.isChecked()) || (answer4no.isChecked()))) {
             Toast.makeText(getApplicationContext(), getString(R.string.giveAnswers), Toast.LENGTH_SHORT).show();
-            score=0;
+            score = 0;
             return;
         }
         if (!((answer5.isChecked()) || (answer5no.isChecked()))) {
             Toast.makeText(getApplicationContext(), getString(R.string.giveAnswers), Toast.LENGTH_SHORT).show();
-            score=0;
+            score = 0;
             return;
         }
         if (!(((answer6a.isChecked()) || (answer6b.isChecked())) || (answer6no.isChecked()))) {
             Toast.makeText(getApplicationContext(), getString(R.string.giveAnswers), Toast.LENGTH_SHORT).show();
-            score=0;
+            score = 0;
             return;
         }
         if (!((answer7.isChecked()) || (answer7no.isChecked()))) {
             Toast.makeText(getApplicationContext(), getString(R.string.giveAnswers), Toast.LENGTH_SHORT).show();
-            score=0;
+            score = 0;
             return;
         }
         if (!((answer8.isChecked()) || (answer8no.isChecked()))) {
             Toast.makeText(getApplicationContext(), getString(R.string.giveAnswers), Toast.LENGTH_SHORT).show();
-            score=0;
+            score = 0;
             return;
         }
         if (!((answer9.isChecked()) || (answer9no.isChecked()))) {
             Toast.makeText(getApplicationContext(), getString(R.string.giveAnswers), Toast.LENGTH_SHORT).show();
-            score=0;
+            score = 0;
             return;
         }
         if (!((answer10.isChecked()) || (answer10no.isChecked()))) {
             Toast.makeText(getApplicationContext(), getString(R.string.giveAnswers), Toast.LENGTH_SHORT).show();
-            score=0;
+            score = 0;
             return;
         }
 
@@ -164,7 +165,7 @@ public class quiz extends AppCompatActivity {
         Intent i = new Intent(this, results.class);
         i.putExtra("Score", score);
         startActivity(i);
-        score=0;
+        score = 0;
 
     }
 

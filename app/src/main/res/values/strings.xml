@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">Quiz APP</string>
     <string name="title_activity_quiz">QUIZ</string>
-    //results
+    <!--  results -->
     <string name="answer1">Less than 35 points - you are in a low risk group, however, it is recommended to have a checkup every two years.</string>
     <string name="answer2">From 35 to 50 points - you are in the middle risk group, it is recommended to have a checkup at least once a year.</string>
     <string name="answer3">Over 50 points - you are at high risk - you are advised to consult your eye doctor immediately!</string>
     <string name="your_score">Your score is:</string>
     <string name="click_to_wiki">Click the link below to find out more about glaucoma!</string>
     <string name="wiki_link">https://en.wikipedia.org/wiki/Glaucoma</string>
-    //quiz
+    <!--  quiz -->
     <string name="question1">Question 1. How old are you?</string>
     <string name="question1_age">Enter age</string>
     <string name="question2">Question 2. Someone in your family is or was sick with glaucoma?</string>
@@ -27,7 +27,7 @@
     <string name="submit">Submit</string>
     <string name="results">Your score is:</string>
     <string name="giveAnswers">You must enter you age in question 1 and answer all questions!</string>
-    //intro
+    <!--  intro -->
     <string name="are_you_at_risk">[QUIZ] Are you at risk for glaucoma?</string>
     <string name="test">Test prepared by the Polish Society of Prophylaxis of Glaucoma in connection with the action: Poland do not blind!</string>
     <string name="start">START</string>

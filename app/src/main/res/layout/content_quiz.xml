@@ -16,125 +16,125 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="8sp"
+            android:layout_margin="8dp"
             android:text="@string/question1" />
 
         <EditText
             android:id="@+id/age_field"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="8sp"
+            android:layout_margin="8dp"
             android:hint="@string/question1_age"
             android:inputType="number" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="8sp"
+            android:layout_margin="8dp"
             android:text="@string/question2" />
 
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="8sp">
+            android:layout_margin="8dp">
 
             <RadioButton
                 android:id="@+id/radio2_yes"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:text="@string/yes" />
 
             <RadioButton
                 android:id="@+id/radio2_no"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:text="@string/no" />
         </RadioGroup>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="8sp"
+            android:layout_margin="8dp"
             android:text="@string/question3" />
 
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="8sp">
+            android:layout_margin="8dp">
 
             <RadioButton
                 android:id="@+id/radio3_yes"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:text="@string/yes" />
 
             <RadioButton
                 android:id="@+id/radio3_no"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:text="@string/no" />
         </RadioGroup>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="8sp"
+            android:layout_margin="8dp"
             android:text="@string/question4" />
 
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="8sp">
+            android:layout_margin="8dp">
 
             <RadioButton
                 android:id="@+id/radio4_yes"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:text="@string/yes" />
 
             <RadioButton
                 android:id="@+id/radio4_no"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:text="@string/no" />
         </RadioGroup>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="8sp"
+            android:layout_margin="8dp"
             android:text="@string/question5" />
 
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="8sp">
+            android:layout_margin="8dp">
 
             <RadioButton
                 android:id="@+id/radio5_yes"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:text="@string/yes" />
 
             <RadioButton
                 android:id="@+id/radio5_no"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:text="@string/no" />
         </RadioGroup>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="8sp"
+            android:layout_margin="8dp"
             android:text="@string/question6" />
 
         <LinearLayout
@@ -146,7 +146,7 @@
                 android:id="@+id/checkbox_q6_yes1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:text="@string/question6a" />
 
@@ -154,7 +154,7 @@
                 android:id="@+id/checkbox_q6_yes2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:text="@string/question6b" />
 
@@ -162,7 +162,7 @@
                 android:id="@+id/checkbox_q6_no"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:text="@string/no" />
 
@@ -171,104 +171,104 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="8sp"
+            android:layout_margin="8dp"
             android:text="@string/question7" />
 
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="8sp">
+            android:layout_margin="8dp">
 
             <RadioButton
                 android:id="@+id/radio7_yes"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:text="@string/yes" />
 
             <RadioButton
                 android:id="@+id/radio7_no"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:text="@string/no" />
         </RadioGroup>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="8sp"
+            android:layout_margin="8dp"
             android:text="@string/question8" />
 
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="8sp">
+            android:layout_margin="8dp">
 
             <RadioButton
                 android:id="@+id/radio8_yes"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:text="@string/yes" />
 
             <RadioButton
                 android:id="@+id/radio8_no"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:text="@string/no" />
         </RadioGroup>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="8sp"
+            android:layout_margin="8dp"
             android:text="@string/question9" />
 
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="8sp">
+            android:layout_margin="8dp">
 
             <RadioButton
                 android:id="@+id/radio9_yes"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:text="@string/yes" />
 
             <RadioButton
                 android:id="@+id/radio9_no"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:text="@string/no" />
         </RadioGroup>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="8sp"
+            android:layout_margin="8dp"
             android:text="@string/question10" />
 
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="8sp">
+            android:layout_margin="8dp">
 
             <RadioButton
                 android:id="@+id/radio10_yes"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:text="@string/yes" />
 
             <RadioButton
                 android:id="@+id/radio10_no"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:text="@string/no" />
         </RadioGroup>
 

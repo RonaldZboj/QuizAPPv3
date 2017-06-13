@@ -13,7 +13,7 @@ public class Intro extends AppCompatActivity {
         setContentView(R.layout.activity_intro);
     }
 
-    public void goToQuiz (View view) {
+    public void goToQuiz(View view) {
         Intent quiz = new Intent(this, quiz.class);
         startActivity(quiz);
     }
